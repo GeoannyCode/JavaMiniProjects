@@ -41,9 +41,11 @@ public class QuizGame {
                 System.out.println(option);
             }
 
+            // GET GUESS FROM USER
             System.out.print("Enter your guess ->  ");
             guess = sc.nextInt();
 
+            // CHECK OUR GUESS
             if(guess == answer[i]){
                 System.out.println("********");
                 System.out.println("CORRECT!");
@@ -57,14 +59,9 @@ public class QuizGame {
 
         }
 
+        // DISPLAY FINAL SCORE
         System.out.println("Your final score is: " + score + " out of " + questions.length);
 
-        //     OPTIONS
-        //     GET GUESS FROM USER
-        //     CHECK OUR GUESS
-        // DISPLAY FINAL SCORE
-
-        sc.close(); 
-
+        sc.close();
     }
 }
