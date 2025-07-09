@@ -17,7 +17,6 @@ public class BankingProgram {
         while(isRunning){
 
             // DISPLAY MENU
-
             System.out.println("***************");
             System.out.println("BANKING PROGRAM");
             System.out.println("***************");
